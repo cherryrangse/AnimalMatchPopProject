@@ -40,8 +40,37 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             build
 
-      - name: Upload built .app artifact
+      - name: Upload built Simulator .app artifact
         uses: actions/upload-artifact@v4
         with:
           name: AnimalMatchPop-iOS-Simulator
           path: ios/build/Build/Products/Debug-iphonesimulator/AnimalMatchPop.app
+
+      - name: Build unsigned iOS device .app
+        working-directory: ios
+        run: |
+          xcodebuild \
+            -project AnimalMatchPop.xcodeproj \
+            -scheme AnimalMatchPop \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build-device \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            build
+
+      - name: Package unsigned .ipa for sideloading
+        working-directory: ios
+        run: |
+          mkdir -p ipa_stage/Payload
+          cp -R build-device/Build/Products/Release-iphoneos/AnimalMatchPop.app ipa_stage/Payload/
+          cd ipa_stage
+          zip -r ../AnimalMatchPop-unsigned.ipa Payload
+
+      - name: Upload unsigned .ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AnimalMatchPop-iOS-Device-IPA
+          path: ios/AnimalMatchPop-unsigned.ipa
