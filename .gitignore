@@ -1,0 +1,33 @@
+# Android / Gradle
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+/release-outputs/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jks
+*.keystore
+
+# iOS / Xcode
+ios/build/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Python / OS
+__pycache__/
+*.pyc
+Thumbs.db

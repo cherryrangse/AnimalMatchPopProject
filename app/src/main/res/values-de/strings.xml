@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animal Match Pop</string>
+    <string name="label_score">Punkte</string>
+    <string name="label_high_score">Rekord</string>
+    <string name="label_time">Zeit</string>
+    <string name="label_combo">Kombo</string>
+    <string name="label_coins">Münzen</string>
+    <string name="label_fever">FIEBER-ZEIT!</string>
+    <string name="label_fever_gauge">Fieber-Leiste</string>
+    <string name="mode_normal">Normal</string>
+    <string name="mode_hard">Schwer</string>
+    <string name="mode_stage">Level</string>
+    <string name="label_moves">Züge</string>
+    <string name="label_goal">Ziel</string>
+    <string name="stage_title">Level %1$d</string>
+    <string name="msg_stage_cleared">Level geschafft!</string>
+    <string name="msg_stage_failed">Keine Züge mehr!</string>
+    <string name="btn_next_stage">Nächstes Level</string>
+    <string name="btn_sound_on">Ton: EIN</string>
+    <string name="btn_sound_off">Ton: AUS</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Weiter</string>
+    <string name="btn_restart">Nochmal spielen</string>
+    <string name="btn_remove_ads">Werbung entfernen</string>
+    <string name="btn_restore">Wiederherstellen</string>
+    <string name="msg_game_over">Zeit abgelaufen!</string>
+    <string name="msg_paused">Spiel pausiert</string>
+    <string name="hint_swap">Tausche benachbarte Tiere, um 3 oder mehr zu kombinieren!</string>
+    <string name="title_subtitle">Süßes Waldtiere Match-3 Puzzle</string>
+    <string name="mode_normal_desc">60s Zeitangriff • 5 Tiere</string>
+    <string name="mode_hard_desc">45s • 6 Tiere • Punkte x1.5</string>
+    <string name="mode_stage_desc">20 Missions-Level • Ziel in Zügen schaffen</string>
+    <string name="btn_start_game">SPIELEN</string>
+    <string name="btn_home">Start</string>
+    <string name="mode_easy">Leicht</string>
+    <string name="mode_easy_desc">6x6 Brett • 90s • 4 Tiere • Tipps</string>
+</resources>

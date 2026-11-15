@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">애니멀 매치 팝</string>
+    <string name="label_score">점수</string>
+    <string name="label_high_score">최고 점수</string>
+    <string name="label_time">시간</string>
+    <string name="label_combo">콤보</string>
+    <string name="label_coins">코인</string>
+    <string name="label_fever">피버 타임!</string>
+    <string name="label_fever_gauge">피버 게이지</string>
+    <string name="mode_normal">노멀</string>
+    <string name="mode_hard">하드</string>
+    <string name="mode_stage">스테이지</string>
+    <string name="label_moves">남은 횟수</string>
+    <string name="label_goal">목표</string>
+    <string name="stage_title">스테이지 %1$d</string>
+    <string name="msg_stage_cleared">스테이지 클리어!</string>
+    <string name="msg_stage_failed">이동 횟수 소진!</string>
+    <string name="btn_next_stage">다음 스테이지</string>
+    <string name="btn_sound_on">사운드: 켜짐</string>
+    <string name="btn_sound_off">사운드: 꺼짐</string>
+    <string name="btn_pause">일시정지</string>
+    <string name="btn_resume">계속하기</string>
+    <string name="btn_restart">다시 시작</string>
+    <string name="btn_remove_ads">광고 제거</string>
+    <string name="btn_restore">구매 복원</string>
+    <string name="msg_game_over">제한 시간 종료!</string>
+    <string name="msg_paused">일시정지됨</string>
+    <string name="hint_swap">인접한 동물을 교환해 3개 이상 매치하세요!</string>
+    <string name="title_subtitle">말랑말랑 숲속 동물 매치 퍼즐</string>
+    <string name="mode_normal_desc">60초 캐주얼 타임어택 • 동물 5종</string>
+    <string name="mode_hard_desc">45초 • 동물 6종 • 점수 1.5배</string>
+    <string name="mode_stage_desc">20개 퍼즐 미션 • 제한 횟수 내 목표 달성</string>
+    <string name="btn_start_game">시작하기</string>
+    <string name="btn_home">홈으로</string>
+    <string name="mode_easy">이지</string>
+    <string name="mode_easy_desc">6x6 작은 보드 • 90초 • 동물 4종 • 힌트 제공</string>
+</resources>

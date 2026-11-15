@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animal Match Pop</string>
+    <string name="label_score">Score</string>
+    <string name="label_high_score">High Score</string>
+    <string name="label_time">Time</string>
+    <string name="label_combo">Combo</string>
+    <string name="label_coins">Coins</string>
+    <string name="label_fever">FEVER TIME!</string>
+    <string name="label_fever_gauge">Fever Gauge</string>
+    <string name="mode_normal">Normal</string>
+    <string name="mode_hard">Hard</string>
+    <string name="mode_stage">Stage</string>
+    <string name="label_moves">Moves</string>
+    <string name="label_goal">Goal</string>
+    <string name="stage_title">Stage %1$d</string>
+    <string name="msg_stage_cleared">Stage Cleared!</string>
+    <string name="msg_stage_failed">Out of Moves!</string>
+    <string name="btn_next_stage">Next Stage</string>
+    <string name="btn_sound_on">Sound: ON</string>
+    <string name="btn_sound_off">Sound: OFF</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_restart">Play Again</string>
+    <string name="btn_remove_ads">Remove Ads</string>
+    <string name="btn_restore">Restore</string>
+    <string name="msg_game_over">Time\'s Up!</string>
+    <string name="msg_paused">Game Paused</string>
+    <string name="hint_swap">Swap adjacent animals to match 3 or more!</string>
+    <string name="title_subtitle">Sweet Forest Match-3 Puzzle</string>
+    <string name="mode_normal_desc">60s Time Attack • 5 Cute Animals</string>
+    <string name="mode_hard_desc">45s • 6 Animals • Score x1.5</string>
+    <string name="mode_stage_desc">20 Puzzle Stages • Mission Challenge</string>
+    <string name="btn_start_game">PLAY</string>
+    <string name="btn_home">Home</string>
+    <string name="mode_easy">Easy</string>
+    <string name="mode_easy_desc">6x6 Small Board • 90s • 4 Animals • Hints</string>
+</resources>

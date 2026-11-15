@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animal Match Pop</string>
+    <string name="label_score">Puntos</string>
+    <string name="label_high_score">Récord</string>
+    <string name="label_time">Tiempo</string>
+    <string name="label_combo">Combo</string>
+    <string name="label_coins">Monedas</string>
+    <string name="label_fever">¡MODO FIEBRE!</string>
+    <string name="label_fever_gauge">Barra de Fiebre</string>
+    <string name="mode_normal">Normal</string>
+    <string name="mode_hard">Difícil</string>
+    <string name="mode_stage">Nivel</string>
+    <string name="label_moves">Turnos</string>
+    <string name="label_goal">Meta</string>
+    <string name="stage_title">Nivel %1$d</string>
+    <string name="msg_stage_cleared">¡Nivel superado!</string>
+    <string name="msg_stage_failed">¡Sin turnos!</string>
+    <string name="btn_next_stage">Siguiente nivel</string>
+    <string name="btn_sound_on">Sonido: SÍ</string>
+    <string name="btn_sound_off">Sonido: NO</string>
+    <string name="btn_pause">Pausa</string>
+    <string name="btn_resume">Continuar</string>
+    <string name="btn_restart">Jugar de nuevo</string>
+    <string name="btn_remove_ads">Quitar anuncios</string>
+    <string name="btn_restore">Restaurar</string>
+    <string name="msg_game_over">¡Tiempo agotado!</string>
+    <string name="msg_paused">Juego en pausa</string>
+    <string name="hint_swap">¡Intercambia animales adyacentes para unir 3 o más!</string>
+    <string name="title_subtitle">Puzzle de Animales del Bosque</string>
+    <string name="mode_normal_desc">60s Contrarreloj • 5 Animales</string>
+    <string name="mode_hard_desc">45s • 6 Animales • Puntos x1.5</string>
+    <string name="mode_stage_desc">20 Niveles de Misión • Supera la Meta</string>
+    <string name="btn_start_game">JUGAR</string>
+    <string name="btn_home">Inicio</string>
+    <string name="mode_easy">Fácil</string>
+    <string name="mode_easy_desc">Tablero 6x6 • 90s • 4 Animales • Pistas</string>
+</resources>

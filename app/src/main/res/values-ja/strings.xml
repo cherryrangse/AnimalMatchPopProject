@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">アニマルマッチポップ</string>
+    <string name="label_score">スコア</string>
+    <string name="label_high_score">ハイスコア</string>
+    <string name="label_time">残り時間</string>
+    <string name="label_combo">コンボ</string>
+    <string name="label_coins">コイン</string>
+    <string name="label_fever">フィーバータイム！</string>
+    <string name="label_fever_gauge">フィーバーゲージ</string>
+    <string name="mode_normal">ノーマル</string>
+    <string name="mode_hard">ハード</string>
+    <string name="mode_stage">ステージ</string>
+    <string name="label_moves">残り手数</string>
+    <string name="label_goal">目標</string>
+    <string name="stage_title">ステージ %1$d</string>
+    <string name="msg_stage_cleared">ステージクリア！</string>
+    <string name="msg_stage_failed">手数切れ！</string>
+    <string name="btn_next_stage">次のステージ</string>
+    <string name="btn_sound_on">サウンド: ON</string>
+    <string name="btn_sound_off">サウンド: OFF</string>
+    <string name="btn_pause">一時停止</string>
+    <string name="btn_resume">再開</string>
+    <string name="btn_restart">もう一度プレイ</string>
+    <string name="btn_remove_ads">広告を削除</string>
+    <string name="btn_restore">購入を復元</string>
+    <string name="msg_game_over">タイムアップ！</string>
+    <string name="msg_paused">一時停止中</string>
+    <string name="hint_swap">隣り合う動物を入れ替えて3つ以上揃えよう！</string>
+    <string name="title_subtitle">ふわふわ森の動物マッチパズル</string>
+    <string name="mode_normal_desc">60秒タイムアタック • 動物5種</string>
+    <string name="mode_hard_desc">45秒 • 動物6種 • スコア1.5倍</string>
+    <string name="mode_stage_desc">全20ステージ • 手数内に目標クリア</string>
+    <string name="btn_start_game">プレイ</string>
+    <string name="btn_home">ホーム</string>
+    <string name="mode_easy">イージー</string>
+    <string name="mode_easy_desc">6x6の小さな盤面 • 90秒 • 動物4種 • ヒント付き</string>
+</resources>
